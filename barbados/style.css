@@ -1,0 +1,40 @@
+.header {
+    text-align:center;
+}
+
+a {
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+.flag {
+    width:900px;
+    height:600px;
+    margin:auto;
+}
+
+.stripe {
+    width:100%;
+    height: 200px;
+
+}
+
+.white{
+    background:#fff
+}
+.red{
+    background:#ff0000
+}
+.blue{
+    background:#0099ff
+}
+
+.flag {
+    /* border:450px inset blue; */
+    color:red;
+    box-sizing:border-box;
+  border-style: inset; /* Top: dotted, Right: dashed, Bottom: solid, Left: double */
+  border-color: red green red green;      /* Top: red, Right: green, Bottom: blue, Left: yellow */
+  border-width: 300px;           /* Top: 2px, Right: 5px, Bottom: 10px, Left: 1px */
+}
