@@ -34,7 +34,7 @@ a {
     /* border:450px inset blue; */
     color:red;
     box-sizing:border-box;
-  border-style: inset; /* Top: dotted, Right: dashed, Bottom: solid, Left: double */
-  border-color: red green red green;      /* Top: red, Right: green, Bottom: blue, Left: yellow */
-  border-width: 300px;           /* Top: 2px, Right: 5px, Bottom: 10px, Left: 1px */
+  border-style: solid; /* Top: dotted, Right: dashed, Bottom: solid, Left: double */
+  border-color: red green;      /* Top: red, Right: green, Bottom: blue, Left: yellow */
+  border-width: 300px 450px;           /* Top: 2px, Right: 5px, Bottom: 10px, Left: 1px */
 }
